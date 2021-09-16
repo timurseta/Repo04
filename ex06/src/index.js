@@ -2,8 +2,10 @@ function main(numOne, numTwo){
 
     // Only change code below this line
 
+    numOne = parseFloat(numOne)
+    numTwo = parseFloat(numTwo)
+
     var myQuotient = numOne / numTwo;
-    
 
     // Only change code above this line
     return myQuotient;
